@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_gravity="center"
+    android:backgroundTint="#1D3F6E"
+    android:layout_marginHorizontal="20dp"
+    app:cardCornerRadius="18sp"
+    android:layout_marginVertical="12dp"
+    tools:context=".dialogalert">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/back"
+        android:layout_marginTop="10dp"
+        android:id="@+id/back"
+        android:layout_marginLeft="7dp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextField"
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:layout_marginTop="5dp"
+        app:boxCornerRadiusBottomEnd="16sp"
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        android:textColorHint="@color/white"
+
+        app:hintTextColor="@color/white"
+
+        android:layout_marginEnd="32dp"
+        android:hint="Enter Hading">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/hading"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+
+        android:outlineSpotShadowColor="@color/white"
+        android:outlineAmbientShadowColor="@color/white"
+        android:layout_marginTop="80dp"
+        app:boxCornerRadiusBottomEnd="16sp"
+
+        app:boxCornerRadiusTopStart="16sp"
+        app:boxCornerRadiusTopEnd="16sp"
+        app:boxCornerRadiusBottomStart="16sp"
+        android:textColorHint="@color/white"
+
+        app:hintTextColor="@color/white"
+
+        android:layout_marginEnd="32dp"
+        android:hint="Enter Hading">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/notetodo"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="160dp"
+        android:layout_height="50sp"
+        android:layout_gravity="end"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="18dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/alfa_slab_one"
+        android:text="Save"
+        android:textColor="@color/blue"
+        app:cornerRadius="9dp"
+        android:textSize="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/save"/>
+
+</androidx.cardview.widget.CardView>

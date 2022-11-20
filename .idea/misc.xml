@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ToDoList/app/src/main/res/drawable-v24/gradieantcolor.xml" value="0.167" />
+        <entry key="..\:/ToDoList/app/src/main/res/drawable-v24/topanim.xml" value="0.167" />
+        <entry key="..\:/ToDoList/app/src/main/res/drawable/gradientcolor.xml" value="0.167" />
+        <entry key="..\:/ToDoList/app/src/main/res/drawable/newdialog.xml" value="0.168" />
+        <entry key="..\:/ToDoList/app/src/main/res/drawable/shape.xml" value="0.168" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout-v28/activity_name.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_about_developer.xml" value="0.6" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_data.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_dialogalert.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_name.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_name_user.xml" value="0.2604166666666667" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/activity_splash_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/datarecycler.xml" value="0.2734375" />
+        <entry key="..\:/ToDoList/app/src/main/res/layout/listiten.xml" value="0.27447916666666666" />
+        <entry key="..\:/ToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.167" />
+        <entry key="..\:/ToDoList/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.137" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

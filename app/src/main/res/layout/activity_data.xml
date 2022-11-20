@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".DataActivity">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/backbtn"
+        android:layout_marginLeft="4dp"
+        app:tint="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Hading"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/userhading"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Hading"
+        android:textStyle="bold"
+        android:textSize="20dp"
+
+        android:visibility="gone"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/updatetitle"/>
+
+    <ImageView
+        android:layout_width="28sp"
+        android:layout_height="28sp"
+        android:src="@drawable/delete"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:id="@+id/deletebtn"/>
+    <ImageView
+        android:layout_width="28sp"
+        android:layout_height="28sp"
+        android:src="@drawable/edit"
+        android:layout_gravity="end"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="5dp"
+        android:clickable="true"
+        android:focusable="true"
+
+        android:id="@+id/edittext"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loding..."
+            android:layout_marginHorizontal="12dp"
+            android:layout_marginTop="80dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:id="@+id/textdata"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loding..."
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="80dp"
+        android:textSize="16sp"
+        android:visibility="gone"
+android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/updatedata"/>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120sp"
+        android:layout_gravity="end"
+        android:layout_marginRight="10dp"
+        android:text="Update"
+        android:backgroundTint="@color/blue"
+        app:cornerRadius="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:id="@+id/newdataupdate"/>
+
+
+</FrameLayout>

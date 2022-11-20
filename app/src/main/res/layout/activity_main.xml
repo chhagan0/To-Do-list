@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#DCD6D6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:layout_marginTop="29dp"
+        android:fontFamily="@font/amiko"
+        android:id="@+id/mytodo"
+        android:text="My To-Do Note"
+        android:textColor="@color/blue"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+<ImageView
+    android:layout_width="40sp"
+    android:layout_height="40sp"
+    android:src="@drawable/img_1"
+    android:id="@+id/noteadd"
+    android:layout_gravity="end"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="10sp"
+    android:clickable="true"
+    android:focusable="true"
+    app:tint="#09203F" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp"
+        tools:listitem="@layout/listiten"
+        android:id="@+id/recyclerview"/>
+
+
+</FrameLayout>

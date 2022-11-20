@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradieantcolor"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutDeveloper">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:text="About Developer"
+        android:textColor="@color/white"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            app:cardCornerRadius="20dp"
+            android:layout_marginTop="15dp"
+            android:outlineSpotShadowColor="@color/black">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:padding="15dp"
+         android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:outlineSpotShadowColor="@color/blue"
+                android:outlineAmbientShadowColor="@color/blue"
+                android:orientation="horizontal"
+                android:layout_marginTop="9dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/insata"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chagan_Swami"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"/>
+
+              <ImageView
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_gravity="center"
+                  android:layout_marginLeft="50dp"
+                  android:clickable="true"
+                  android:focusable="true"
+                  android:id="@+id/insta"
+                  android:src="@drawable/add"
+                  android:background="@color/blue"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:outlineSpotShadowColor="@color/blue"
+                android:outlineAmbientShadowColor="@color/blue"
+                android:orientation="horizontal"
+                android:layout_marginTop="9dp">
+                <ImageView
+                    android:padding="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/linkedin"
+                    android:scaleType="centerCrop"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Chagan Swami"
+                    android:layout_gravity="center_vertical"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="50dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:id="@+id/linedin"
+                    android:src="@drawable/add"
+                    android:background="@color/blue"/>
+
+            </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:outlineSpotShadowColor="@color/blue"
+             android:outlineAmbientShadowColor="@color/blue"
+             android:orientation="horizontal"
+             android:layout_marginTop="9dp">
+             <ImageView
+                 android:padding="5dp"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp"
+                 android:src="@drawable/img_4"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Chhagan0"
+                 android:layout_gravity="center_vertical"
+                 android:textColor="@color/black"/>
+
+             <ImageView
+                 android:layout_width="30dp"
+                 android:layout_height="30dp"
+                 android:layout_gravity="center"
+                 android:layout_marginLeft="80dp"
+                 android:clickable="true"
+                 android:focusable="true"
+                 android:id="@+id/github"
+
+                 android:src="@drawable/add"
+                 android:background="@color/blue"/>
+
+         </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:outlineSpotShadowColor="@color/blue"
+             android:outlineAmbientShadowColor="@color/blue"
+             android:orientation="horizontal"
+             android:layout_marginTop="9dp">
+             <ImageView
+                 android:padding="5dp"
+                 android:layout_width="40dp"
+                 android:layout_marginLeft="7dp"
+                 android:layout_height="40dp"
+                 android:src="@drawable/gmail"
+                 android:scaleType="centerCrop"/>
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="5dp"
+                 android:text="Chhaganswami1@gmail.com"
+                 android:layout_gravity="center_vertical"
+                 android:textColor="@color/black"/>
+
+
+
+         </LinearLayout>
+     </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+</LinearLayout>
